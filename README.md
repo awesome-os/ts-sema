@@ -367,3 +367,10 @@ As Bun's `LICENSE.md` notes, the checker is a port of Microsoft's
 [typescript-go](https://github.com/microsoft/typescript-go) and uses
 TypeScript's diagnostic messages and `lib.*.d.ts` files (in
 `typescript_libs.bin`), which are Apache-2.0.
+
+## Quick Start (Windows / Linux / macOS)
+
+```sh
+# Clone & enter repository (all platforms)
+git clone https://github.com/awesome-os/ts-sema.git && cd ts-sema
+```
