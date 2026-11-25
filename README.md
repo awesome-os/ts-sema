@@ -374,3 +374,13 @@ TypeScript's diagnostic messages and `lib.*.d.ts` files (in
 # Clone & enter repository (all platforms)
 git clone https://github.com/awesome-os/ts-sema.git && cd ts-sema
 ```
+
+## Quick Install & Run (Windows / Linux / macOS)
+
+```sh
+# Install / hydrate from v11 CAS via holo-pm
+holo-pm install repository://github.com/awesome-os/ts-sema@main
+
+# Or project & run directly via holo-project (0-byte hardlink)
+holo-project "project://cpp/ts-sema?from=repository://github.com/awesome-os/ts-sema@main"
+```
