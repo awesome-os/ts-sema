@@ -1,0 +1,15 @@
+{
+  "schema": "holo-ci.v1",
+  "name": "ts-sema",
+  "kind": "native-fork",
+  "tests": [
+    "node -e \"const fs=require('node:fs'); JSON.parse(fs.readFileSync('upstream.json','utf8'))\""
+  ],
+  "docs": [
+    "README.md"
+  ],
+  "guards": {
+    "zeroGhost": true,
+    "zeroCasV1": true
+  }
+}
